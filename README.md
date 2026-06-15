@@ -2,3 +2,4 @@
 ## 2026년 6월 15일
 - repository 생성
 - commit and push
+- github 수정
