@@ -1,5 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>영상 재생 페이지</title>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <style>
+        body { font-family: sans-serif; padding: 20px; text-align: center; }
+        .video-container { margin: 20px auto; }
+    </style>
+</head>
 <body>
-hello
+
+    <h2>웹 페이지에서 직접 재생</h2>
+    
+    <div class="video-container">
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/ek_Tc24cziw" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </div>
+
+    <div>
+        <a href="http://llm.pocheonil.hs.kr" target="_blank">포천일고등학교 LLM 페이지 바로가기</a>
+    </div>
+
+
+<iframe width="600" height="400" src="https://www.youtube.com/embed/ek_Tc24cziw" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
